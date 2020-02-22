@@ -110,7 +110,7 @@ author:
   name             : "아름"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**기록하는** 개발자가 되자"
-  location         : "Somewhere"
+  location         : "Vancouver"
   email            :
   links:
     - label: "Email"

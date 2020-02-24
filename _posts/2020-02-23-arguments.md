@@ -1,7 +1,7 @@
 ---
 title: "[공부 기록] JavaScript - arguments"
 date: 2020-02-23 13:54:00
-categories: JavaScript arguments function
+categories: JavaScript
 ---
 
 ## 정의

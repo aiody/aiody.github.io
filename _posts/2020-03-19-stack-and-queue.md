@@ -1,7 +1,7 @@
 ---
 title: "[공부 기록] Data Structure - Stack and Queue"
 date: 2020-03-19 14:32:00
-categories: JavaScript DataStructure
+categories: DataStructure
 ---
 
 ## Queue

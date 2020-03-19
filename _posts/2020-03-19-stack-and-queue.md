@@ -7,9 +7,9 @@ categories: JavaScript DataStructure
 ## Queue
 `Queue`는 가장 처음 들어간 데이터가 가장 먼저 나오는 구조이다. (FIFO: first in, first out)  
 파이프를 생각하면 쉽다. 아래의 그림처럼 파이프에 빨강, 노랑, 초록 순으로 공을 넣는다고 하자.  
-// 그림 넣음.
+![IMG_7F40E3077D40-1](https://user-images.githubusercontent.com/11348329/77041365-1fd64580-69fd-11ea-9566-8ee41134d4d0.JPG)  
 그렇다면 가장 먼저 나오게 되는 공은 가장 처음 넣은 빨간 공이다. 같은 논리로 빨강, 노랑, 초록 순으로 공이 빠져나오게 되는 것이다.  
-// 빠져나온 그림.
+![IMG_1020ACA23E19-1](https://user-images.githubusercontent.com/11348329/77041362-1f3daf00-69fd-11ea-8c39-6b023a534530.JPG)  
 이러한 자료 구조를 `Queue`라고 한다.
 
 ### Queue의 구성
@@ -57,9 +57,9 @@ function size() {
 ## Stack
 `Stack`은 가장 나중에 들어간 데이터가 가장 먼저 나오는 구조이다. (LIFO: last in, first out)  
 한 쪽이 막힌 파이프를 생각하면 된다. 똑같이 빨강, 노랑, 초록 순으로 공을 넣어보자.  
-// 그림 넣음.
+![IMG_E1066366E755-1](https://user-images.githubusercontent.com/11348329/77041359-1ea51880-69fd-11ea-9d74-fb195146a124.JPG)  
 파이프 한 쪽이 막혀있기 때문에 가장 마지막에 넣은 초록 공이 제일 먼저 나오게 된다. 결국 초록, 노랑, 빨강 순으로 공이 빠져나오게 된다.  
-// 빠져나온 그림.
+![IMG_87147CAB5B54-1](https://user-images.githubusercontent.com/11348329/77041357-1d73eb80-69fd-11ea-84ec-ac387d6b5c8b.JPG)  
 이러한 자료 구조를 `Stack`이라고 한다.
 
 ### Stack의 구성

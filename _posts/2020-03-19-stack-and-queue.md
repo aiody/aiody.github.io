@@ -23,8 +23,36 @@ categories: JavaScript DataStructure
 |Front|맨 앞에 있는 데이터를 가리킨다.|
 |Rear|맨 뒤에 있는 데이터를 가리킨다.|
 
-### Queue를 어떤 논리로 구현할 수 있을까?
-(작성중)
+### Queue를 어떤 논리로 구현할 수 있을까? (pseudo code)
+```js
+let queue = [];
+let front = 0;
+let rear = 0;
+
+function init() {
+  front = 0;
+  rear = 0;
+  queue = [];
+}
+
+function enqueue(데이터) {
+  // queue에 rear위치에 데이터를 넣는다.
+  // rear 값을 하나 증가시킨다.
+}
+
+function dequeue() {
+  // queue의 front위치에 있는 데이터를 리턴한다.
+  // front값을 하나 증가시킨다.
+}
+
+function is_empty() {
+  // front와 rear의 값이 같으면 비어있다.
+}
+
+function size() {
+  // rear - front를 리턴한다.
+}
+```
 
 ## Stack
 `Stack`은 가장 나중에 들어간 데이터가 가장 먼저 나오는 구조이다. (LIFO: last in, first out)  
@@ -44,8 +72,34 @@ categories: JavaScript DataStructure
 |size()|스택에 들어있는 데이터의 개수를 얻는다.|
 |Top|가장 최근에 입력된 데이터를 가리킨다.|
 
-### Stack을 어떤 논리로 구현할 수 있을까?
-(작성중)
+### Stack을 어떤 논리로 구현할 수 있을까? (pseudo code)
+```js
+let stack = [];
+let top = -1;
+
+function init() {
+  stack = [];
+  top = -1;
+}
+
+function push(데이터) {
+  // top의 값을 하나 증가시킨다.
+  // stack의 top위치에 데이터를 넣는다.
+}
+
+function pop() {
+  // stack의 top위치에 데이터를 리턴한다.
+  // top의 값을 하나 감소시킨다.
+}
+
+function is_empty() {
+  // top이 -1이면 비어있다.
+}
+
+function size() {
+  // top + 1를 리턴한다.
+}
+```
 
 출처  
 <https://www.tutorialride.com/data-structures/queue-in-data-structure.htm>  

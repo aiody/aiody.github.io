@@ -30,6 +30,7 @@ categories: DataStructure
 
 ## Hash table
 (작성중)
+![hash_table](https://user-images.githubusercontent.com/11348329/77141320-ca16a180-6abf-11ea-8a9e-6f0745bac1aa.jpg)
 
 ### Hash table의 구성
 (작성중)

@@ -5,7 +5,8 @@ categories: DataStructure
 ---
 
 ## Linked list
-`Linked list`는 크게 두 부분으로 나뉘어 있는 노드(객체)들의 연결 집합이다. 각 노드들은 값을 갖는 부분과 다음 노드의 주소를 갖는 두 부분으로 이루어져있다.  
+`Linked list`는 크게 두 부분으로 나뉘어 있는 노드(객체)들의 연결 집합이다. 배열과 비교하였을 때 삽입, 삭제가 유연하지만 특정 값을 검색하거나 index로 접근하기에는 적합하지 않다.  
+`Linked list`의 각 노드들은 값을 갖는 부분과 다음 노드의 주소를 갖는 두 부분으로 이루어져있다.   
 ![linked_list_node](https://user-images.githubusercontent.com/11348329/77137338-cd566100-6ab0-11ea-9463-dabcb36811f6.jpg)
 
 
@@ -29,14 +30,30 @@ categories: DataStructure
 ![pseudo_code_linked_list](https://user-images.githubusercontent.com/11348329/77138987-87e96200-6ab7-11ea-8853-4f5aceaf5fb5.jpg)
 
 ## Hash table
-(작성중)
-![hash_table](https://user-images.githubusercontent.com/11348329/77141320-ca16a180-6abf-11ea-8a9e-6f0745bac1aa.jpg)
+`Hash table`이란 `key`와 `value`가 연결되어 있는 자료구조이다. `key`를 통해서 `value`에 접근할 수 있다. 내부적으로는 값을 저장하는 `bucket`의 개수가 `key`의 개수보다 적기 때문에 특정한 연산(`Hash function`)을 통해서 `Hash code`를 만들고(`Hashing`) 이것으로`index`를 만들어낸 후 그 `index`와 연결된 `bucket`에 값을 저장하게 된다. 한 `bucket`에는 여러 개의 값이 들어갈 수 있으며 이들은 `Linked list`형태로 저장이 된다. 이를 그림으로 표현하면 아래와 같다.
+![hash_table](https://user-images.githubusercontent.com/11348329/77242434-c1e66f80-6c41-11ea-85f8-7081969fb188.jpg)
+
+### Hash Collision
+`Hash Collision`이란 `hash function`을 통해서 `index`가 결정되고 그 값이 `bucket`에 들어가는 과정에서 한 `bucket`에 값이 몰려서 들어가게 되는 경우를 `Hash Collision`이라고 부른다. 그래서 좋은 `Hash function`은 `index`값이 골고루 나와야 한다. 이를 해결하기 위해서 다양한 방법이 적용되고는 하는데 아래와 같다.
+
+#### 1. Chaining (체이닝)
+충돌이 발생하면 `Linked list`에 삽입하여 해결. 한 `bucket`에 여러 데이터를 넣을 수 있는 구조.
+#### 2. Open addressing (개방 주소법)
+충돌이 발생하면 빈 곳을 탐색하여 값을 넣고 해결. 한 `bucket`에 데이터 한 개만 들어가는 구조. `Linear probing`(선형 탐사), `Quadratic probing`(제곱 탐사), `double hashing`(이중 해싱), `rehashing`(재해싱) 등의 방법이 있다.
 
 ### Hash table의 구성
-(작성중)
+| 내용 | 설명 |
+| -------- | -------- |
+| insert() | 키와 데이터를 매칭하여 넣는다. |
+| retrieve() | 키를 통하여 데이터를 찾는다. |
+| remove() | 키를 통하여 데이터를 삭제한다. |
 
 ### Hash table을 어떤 논리로 구현할 수 있을까? (pseudo code)
 (작성중)
 
 출처  
 <https://hyeonstorage.tistory.com/259>  
+<https://youtu.be/Vi0hauJemxA>  
+<https://luyin.tistory.com/191>  
+<https://ratsgo.github.io/data%20structure&algorithm/2017/10/25/hash/>  
+

@@ -29,7 +29,7 @@ Adjacency Matrix : 2차원 배열
 Adjacency List : Linked list
 
 ### Graph의 탐색
-DFS(depth-first search) 깊이 우선 탐색 : 노드에서 가장 깊은 곳까지 탐색 후 다음 넓이를 검사하는 방식.
+DFS(depth-first search) 깊이 우선 탐색 : 노드에서 가장 깊은 곳까지 탐색 후 다음 넓이를 검사하는 방식.  
 BFS(breadth-first search) 너비 우선 탐색 : 노드에서 갈 수 있는 넓이를 모두 탐색 후 다음 깊이를 검사하는 방식.
 
 ### Graph의 구성

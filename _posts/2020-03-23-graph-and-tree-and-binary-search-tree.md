@@ -6,30 +6,31 @@ categories: DataStructure
 
 ## Graph
 `Graph`는 여러 개의 노드와 그 노드들을 연결짓는 선으로 구성된 자료 구조이다. 
-
-// 일반적인 그래프 그림 - 노드, 에지 알려주기
-예> 도로, 지하철 노선도의 최단 경로
+![Graph_basic](https://user-images.githubusercontent.com/11348329/77285099-97fd7d80-6d13-11ea-967b-fbde820263b6.jpg)
 
 
 ### Graph의 종류
+![directed_undirected_graph](https://user-images.githubusercontent.com/11348329/77285101-992eaa80-6d13-11ea-9c44-8f5c236ff31b.jpg)
 선의 종류에 따라 `Directed Graph`와 `Undirected Graph`로 나뉠 수 있다.  
 `Directed Graph`에서 노드가 자기 스스로와 연결된 선을 가질 때 그것을 `Self edge`라고 부른다.
+![cyclic_acyclic_graph](https://user-images.githubusercontent.com/11348329/77285102-99c74100-6d13-11ea-8d7c-13ef12531b13.jpg)
 `Graph` 내부에서 순환이 있을 경우 `Cyclic graph`라고 부르고 순환이 없을 경우 `Acyclic graph`라고 부른다.
-// 그림 directed graph, unditected graph, self edge
-// 그림 cyclic, acyclic
-// Weighted graph
-// connected graph / disconnected graph
-// complete graph
+![weighted_graph](https://user-images.githubusercontent.com/11348329/77285104-9a5fd780-6d13-11ea-9ce1-df63478812ee.jpg)
+`edge`에 가중치가 붙은 경우 `Weighted graph`라고 부른다.
+![connected_disconnected_graph](https://user-images.githubusercontent.com/11348329/77285105-9af86e00-6d13-11ea-8300-27acd30dac3d.jpg)
+연결되어 있는 그래프를 `connected graph`라고 하고 따로 떨어져 있는 그래프를 `disconnected graph`라고 부른다.
+![complete_graph](https://user-images.githubusercontent.com/11348329/77285108-9b910480-6d13-11ea-8cff-2122b6de0f61.jpg)
+각 노드끼리 모두 연결되어 있으면 `complete graph`라고 부른다.
 
 ### Graph를 표현하는 방법
+![adjacency_matrix](https://user-images.githubusercontent.com/11348329/77285106-9b910480-6d13-11ea-83e8-641943976ba9.jpg)
 Adjacency Matrix : 2차원 배열
+![adjacency_list](https://user-images.githubusercontent.com/11348329/77285109-9cc23180-6d13-11ea-8b8b-14f3d700cb0e.jpg)
 Adjacency List : Linked list
 
-// adjacency matrix
-// adjacency list 그림
-
 ### Graph의 탐색
-깊이 우선 탐색 DFS depth first search 너비 우선 탐색 BFS breadth first search
+DFS(depth-first search) 깊이 우선 탐색 : 노드에서 가장 깊은 곳까지 탐색 후 다음 넓이를 검사하는 방식.
+BFS(breadth-first search) 너비 우선 탐색 : 노드에서 갈 수 있는 넓이를 모두 탐색 후 다음 깊이를 검사하는 방식.
 
 ### Graph의 구성
 | 내용 | 설명 |

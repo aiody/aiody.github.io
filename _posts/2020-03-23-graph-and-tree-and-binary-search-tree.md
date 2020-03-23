@@ -49,17 +49,21 @@ BFS(breadth-first search) 너비 우선 탐색 : 노드에서 갈 수 있는 넓
 `Tree`는 노드들 간의 계층이 있어서 부모와 자식이 존재하는 자료 구조이다. 
 `Root node`는 자식을 0개 이상 갖고 있고 그 자식들도 자식을 가지고 있는 `Tree` 안에 `Tree`가 존재하는 모양새이다.
 크게 보았을 때 `Tree`는 `Graph`의 한 부분이라고 볼 수 있다. Directed Acylic Graph(방향성이 없는 비순환 그래프)라고 볼 수 있다.
+![Tree_basic](https://user-images.githubusercontent.com/11348329/77285622-c3cd3300-6d14-11ea-8332-fc098af6cffb.png)
 
-// 일반적인 트리 그림 - leaf 포함, root node
 
 ### Tree의 종류
-Binary Tree - 자식을 최대 두 개 까지만 갖는 `Tree`
-Binary Search Tree - 특정한 규칙에 따라 값들이 정렬되어 있는 `Tree`
-Balanced Tree - 노드들이 균형있게 자리 잡혀있는 `Tree`
-Unbalanced Tree - 노드들이 지나치게 치우쳐있는 `Tree`
-Complete Binary Tree - 이진 트리 중 모든 노드들이 레벨별로 왼쪽부터 채워져있으면 완전 이진 트리.
-Full Binary Tree - 자식을 하나만 가진 노드가 없을 때 즉 자식을 하나도 가지고 있지 않거나 두 개를 가졌을 때 전 이진 트리라고 한다.
-Perfect Binary Tree - 모든 말단 노드가 같은 레벨에 있고 모든 노드가 두 개의 자식을 가지고 있을 때 포화 이진 트리라고 한다.
+![binary_tree_and_binary_search_tree](https://user-images.githubusercontent.com/11348329/77286514-c0d34200-6d16-11ea-9095-ab53948430ad.jpg)
+Binary Tree - 자식을 최대 두 개 까지만 갖는 `Tree`  
+Binary Search Tree - 특정한 규칙에 따라 값들이 정렬되어 있는 `Tree`  
+![balanced_and_unbalanced_binary_tree](https://user-images.githubusercontent.com/11348329/77286516-c2046f00-6d16-11ea-9d09-4ed8e42a32db.jpg)
+Balanced Tree - 노드들이 균형있게 자리 잡혀있는 `Tree`  
+Unbalanced Tree - 노드들이 지나치게 치우쳐있는 `Tree`  
+![complete_binary_tree](https://user-images.githubusercontent.com/11348329/77286519-c29d0580-6d16-11ea-9e16-dfb25144fabc.jpg)
+Complete Binary Tree - 이진 트리 중 모든 노드들이 레벨별로 왼쪽부터 채워져있으면 완전 이진 트리.  
+![full_and_perfect_binary_tree](https://user-images.githubusercontent.com/11348329/77286521-c3359c00-6d16-11ea-93ab-6f9398fd7882.jpg)
+Full Binary Tree - 자식을 하나만 가진 노드가 없을 때 즉 자식을 하나도 가지고 있지 않거나 두 개를 가졌을 때 전 이진 트리라고 한다.  
+Perfect Binary Tree - 모든 말단 노드가 같은 레벨에 있고 모든 노드가 두 개의 자식을 가지고 있을 때 포화 이진 트리라고 한다.  
 
 ### Tree의 구성
 | 내용 | 설명 |
@@ -73,7 +77,10 @@ Perfect Binary Tree - 모든 말단 노드가 같은 레벨에 있고 모든 노
 (작성중)
 
 ## Binary Search Tree
+![binary_search_tree](https://user-images.githubusercontent.com/11348329/77286523-c3ce3280-6d16-11ea-8fa6-629f526add27.jpg)
+
 `Binary Tree`의 한 종류라고 볼 수 있으며 현재 노드보다 왼쪽에 있는 값이 더 작고 현재 노드보다 오른쪽에 있는 값이 더 크게 정렬된 트리를 `Binary Search Tree`라고 한다.
+
 
 ### Binary Search Tree의 구성
 | 내용 | 설명 |

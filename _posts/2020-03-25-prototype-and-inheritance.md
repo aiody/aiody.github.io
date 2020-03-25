@@ -4,7 +4,7 @@ date: 2020-03-25 14:59:00
 categories: JavaScript
 ---
 
-Java나 C++같은 `class` 기반 언어에서는 `class`가 존재하지만 JavaScript에서는 `prototype` 기반 언어이기 때문에 (ES6/ES2015부터)`class`라는 키워드를 제공하지만 내부적으로 `class`가 존재하는 것은 아니다.  
+Java나 C++같은 `class` 기반 언어에서는 `class`가 존재하지만 JavaScript에서는 `prototype` 기반 언어이기 때문에 (ES6/ES2015부터)`class`라는 키워드를 제공하더라도 내부적으로 `class`가 존재하는 것은 아니다.  
 각각의 객체는 `[[Prototype]](__proto__)`이라는 `private` 속성을 가지는데 이것은 원형이 되는 `prototype` 객체를 가리키고 있다. 이 `prototype` 객체 또한 이 객체의 원형이 되는 `prototype` 객체를 가지고 있고 이것은 반복되다가 `null`을 프로토타입으로 가지는 객체에서 끝이 난다.  
 이렇게 객체가 원형인 `prototype` 객체를 가리키는 것을 반복하는 것을 `prototype chain`이라고 한다.
 

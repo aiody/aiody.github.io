@@ -194,7 +194,7 @@ steve.sleep(); // steve is sleeping...
 ```
 
 출처  
-Codestates Immersive Course
+Codestates Immersive Course  
 [mdn 상속과 프로토타입]  
 
 [mdn 상속과 프로토타입]: https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain

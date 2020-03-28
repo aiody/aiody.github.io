@@ -43,7 +43,7 @@ BFS(breadth-first search) 너비 우선 탐색 : 노드에서 갈 수 있는 넓
 | hasEdge() | 특정한 노드가 간선이 연결되어 있는지 검사한다. |
 
 ### Graph를 어떤 논리로 구현할 수 있을까? (pseudo code)
-(작성중)
+![pseudocode_of_graph](https://user-images.githubusercontent.com/11348329/77825382-45292900-714c-11ea-8d9f-ce9be070cb1f.jpg)
 
 ## Tree
 `Tree`는 노드들 간의 계층이 있어서 부모와 자식이 존재하는 자료 구조이다. 

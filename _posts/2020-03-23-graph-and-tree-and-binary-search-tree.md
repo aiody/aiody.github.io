@@ -74,7 +74,7 @@ Perfect Binary Tree - 모든 말단 노드가 같은 레벨에 있고 모든 노
 | contains() | Tree에 특정 값을 가지고 있는지 검사하기. |
 
 ### Tree를 어떤 논리로 구현할 수 있을까? (pseudo code)
-(작성중)
+![pseudo_code_of_tree](https://user-images.githubusercontent.com/11348329/77845486-427d1100-71ea-11ea-808e-cb47e9ddda29.jpg)
 
 ## Binary Search Tree
 ![binary_search_tree](https://user-images.githubusercontent.com/11348329/77286523-c3ce3280-6d16-11ea-8fa6-629f526add27.jpg)
@@ -93,7 +93,7 @@ Perfect Binary Tree - 모든 말단 노드가 같은 레벨에 있고 모든 노
 | depthFirstLog() | DFS를 통해 탐색한 순서대로 로그 출력하기. |
 
 ### Binary Search Tree를 어떤 논리로 구현할 수 있을까? (pseudo code)
-(작성중)
+![pseudo_code_of_binary_search_tree](https://user-images.githubusercontent.com/11348329/77845487-43ae3e00-71ea-11ea-989a-6d2f21064557.jpg)
 
 출처  
 Graph

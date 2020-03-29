@@ -66,6 +66,9 @@ TIGER : TIGER는 64 비트 프로세서에 최적화되어서 64 비트 프로�
 ### Hash table을 어떤 논리로 구현할 수 있을까? (pseudo code)
 ![pseudo_code_hash_table](https://user-images.githubusercontent.com/11348329/77244220-1562b880-6c56-11ea-8e94-38bafbf18eff.jpg)
 
+### Advanced Hash table - Hash collision 해결하기 (pseudo code)
+![pseudo_code_of_advanced_hash_table](https://user-images.githubusercontent.com/11348329/77845488-4446d480-71ea-11ea-8b94-775123e7ac39.jpg)
+
 출처  
 <https://hyeonstorage.tistory.com/259>  
 <https://youtu.be/Vi0hauJemxA>  

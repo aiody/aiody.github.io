@@ -64,29 +64,29 @@ Codestates에서의 4주간의 마지막 프로젝트가 끝이 났다. 지금�
 ### 2-1. 기능별 시연 영상
 
 #### 회원가입(유저), 관심사 조사, 로그인
-{% include youtube.html id="https://youtu.be/JZx7UbzWpHU" %}
+{% include youtube.html id="JZx7UbzWpHU" %}
 #### 현재 위치에서 검색, 위치로 검색, 이름으로 검색, 현위치로 돌아가기
-{% include youtube.html id="https://youtu.be/wUjwnGKi2Og" %}
+{% include youtube.html id="wUjwnGKi2Og" %}
 #### 관심분야와 선호하는 센터로 필터링
-{% include youtube.html id="https://youtu.be/KUPhwcrp9F0" %}
+{% include youtube.html id="KUPhwcrp9F0" %}
 #### 관심사를 수정했을 때 추천하는 마커가 바뀌는 것
-{% include youtube.html id="https://youtu.be/FG89Lx83txM" %}
+{% include youtube.html id="FG89Lx83txM" %}
 #### 마커를 눌렀을 때 나오는 상세페이지 및 예약하기
-{% include youtube.html id="https://youtu.be/v6PWUxVHGCY" %}
+{% include youtube.html id="v6PWUxVHGCY" %}
 #### 즐겨찾기 추가/삭제
-{% include youtube.html id="https://youtu.be/ase-zRUrq7k" %}
+{% include youtube.html id="ase-zRUrq7k" %}
 #### [마이페이지] 예약 관리 - 예약 수정/삭제, 리뷰 작성
-{% include youtube.html id="https://youtu.be/ZYwWBHygbW8" %}
+{% include youtube.html id="ZYwWBHygbW8" %}
 #### [마이페이지] 리뷰 관리 - 리뷰 수정/삭제
-{% include youtube.html id="https://youtu.be/erq5tYGQhhY" %}
+{% include youtube.html id="erq5tYGQhhY" %}
 #### 유저 로그아웃, 센터(심리상담소/정신과) 회원가입 및 로그인
-{% include youtube.html id="https://youtu.be/HUadmwJDpFY" %}
+{% include youtube.html id="HUadmwJDpFY" %}
 #### 슈퍼 어드민(웹) - 센터 admin 가입 수락/거절
 ![adminRequest](https://user-images.githubusercontent.com/11348329/86935462-d2324400-c177-11ea-9170-09ca8ca9c1f9.gif)
 #### [센터페이지] 메인 - 별점 그래프, 리뷰, 전문분야 수정
-{% include youtube.html id="https://youtu.be/EspbY0SzoTU" %}
+{% include youtube.html id="EspbY0SzoTU" %}
 #### [센터페이지] 예약 관리 - 진료 완료/미완료
-{% include youtube.html id="https://youtu.be/0_v2xpdkOGw" %}
+{% include youtube.html id="0_v2xpdkOGw" %}
 
 ### 2-2. repositories
 server : <https://github.com/aiody/BeHappy-server.git>  
